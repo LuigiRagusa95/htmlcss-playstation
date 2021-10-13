@@ -1,0 +1,13 @@
+.xfx-bg-blue { background-color: #2d72d0 !important; }
+.xfx-bg-white { background-color: #ffffff !important; }
+.xfx-bg-black { background-color: #000000 !important; }
+.xfx-bg-darkgray { background-color: #363636 !important; }
+
+.xfx-clr-blue { color: #2d72d0 !important; }
+.xfx-clr-white { color: #ffffff !important; }
+.xfx-clr-black { color: #000000 !important; }
+.xfx-clr-darkgray { color: #363636 !important; }
+
+.xfx-w-72 { width: 4.5rem !important; }
+
+.xfx-object-fit img { width: 100%; height: auto; object-fit: contain; }

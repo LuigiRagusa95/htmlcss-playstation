@@ -4,6 +4,7 @@ sup { vertical-align: top !important; position: relative !important; top: 0.5em 
 .xfx-bg-blue { background-color: #2d72d0 !important; }
 .xfx-bg-white { background-color: #ffffff !important; }
 .xfx-bg-black { background-color: #000000 !important; }
+.xfx-bg-midblue { background-color: #1a459b !important; }
 .xfx-bg-darkblue { background-color: #171d3b !important; }
 .xfx-bg-darkgray { background-color: #363636 !important; }
 .xfx-bg-lightgray { background-color: #bebcbb !important; }
@@ -20,6 +21,7 @@ sup { vertical-align: top !important; position: relative !important; top: 0.5em 
 .xfx-mr-4 { margin-right: 0.25rem !important; }
 .xfx-mr-8 { margin-right: 0.5rem !important; }
 .xfx-mr-16 { margin-right: 1rem !important; }
+.xfx-w-16 { width: 1rem !important; }
 .xfx-w-72 { width: 4.5rem !important; }
 .xfx-w-320 { width: 20rem !important; }
 .xfx-h-24 { height: 1.5rem; }
@@ -38,6 +40,8 @@ sup { vertical-align: top !important; position: relative !important; top: 0.5em 
 
 .xfx-sony-logo { width: 4.5rem !important; height: 1.5rem !important; }
 .xfx-playstation-logo { width: 3rem !important; height: 3rem !important; }
+.xfx-playstation-logo-big { width: 4.5rem !important; height: 4.5rem !important; }
+.xfx-playstation-logo-extrabig { width: 8rem !important; height: auto !important; }
 
 .xfx-dropdown-toggle::after { display: flex; margin-left: .255em; margin-top: .255em; content: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-down' class='svg-inline--fa fa-chevron-down fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 448 512'%3E%3Cpath fill='%23999' d='M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z'%3E%3C/path%3E%3C/svg%3E"); }
 

@@ -1,3 +1,5 @@
+html { font-family: Helvetica, Arial, sans-serif; }
+
 .xfx-bg-blue { background-color: #2d72d0 !important; }
 .xfx-bg-white { background-color: #ffffff !important; }
 .xfx-bg-black { background-color: #000000 !important; }
@@ -17,10 +19,14 @@
 .xfx-h-24 { height: 1.5rem; }
 .xfx-h-screen { height: 100vh; }
 
+.xfx-fw-600 { font-weight: 600; }
+
 .xfx-fsz-14 { font-size: 0.875rem !important; line-height: 1.5rem !important; }
 .xfx-fsz-16 { font-size: 1rem !important; line-height: 1.5rem !important; }
+.xfx-text-adjust-2 { margin-bottom: .125rem; }
 
 .xfx-object-fit img { width: 100%; height: auto; object-fit: contain; }
+.xfx-object-fit-cover img { width: 100%; height: auto; object-fit: cover; }
 
 .xfx-sony-logo { width: 4.5rem !important; height: 1.5rem !important; }
 .xfx-playstation-logo { width: 3rem !important; height: 3rem !important; }
@@ -28,4 +34,8 @@
 .xfx-dropdown-toggle::after { display: flex; margin-left: .255em; margin-top: .255em; content: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-down' class='svg-inline--fa fa-chevron-down fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 448 512'%3E%3Cpath fill='%23999' d='M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z'%3E%3C/path%3E%3C/svg%3E"); }
 
 .xfx-btn-round-full-black { background-color: #363636 !important; border-radius: 9999px !important; padding: .5rem 1rem !important; color: #ffffff !important; font-size: 1rem !important; line-height: 1.5rem !important; }
+.xfx-btn-round-full-orange { background-color: #cd3d0f !important; border-radius: 9999px !important; padding: .5rem 1rem !important; color: #ffffff !important; font-size: 1rem !important; line-height: 1.5rem !important; }
 .xfx-btn-icon-white { background-color: #ffffff !important; color: #363636 !important; height: 2rem !important; width: 2rem !important; }
+
+.xfx-h-280 { width: 100%; height: 600px; }
+.xfx-bg-image-returnal { background-size: contain; background-repeat: no-repeat; background-position: 100% 50%; background-image: url(../img/returnal-listing-thumb-01-ps5.jpg); min-height: 512px; }

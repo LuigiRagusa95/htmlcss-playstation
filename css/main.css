@@ -4,12 +4,14 @@ sup { vertical-align: top !important; position: relative !important; top: 0.5em 
 .xfx-bg-blue { background-color: #2d72d0 !important; }
 .xfx-bg-white { background-color: #ffffff !important; }
 .xfx-bg-black { background-color: #000000 !important; }
+.xfx-bg-darkblue { background-color: #171d3b !important; }
 .xfx-bg-darkgray { background-color: #363636 !important; }
 .xfx-bg-lightgray { background-color: #bebcbb !important; }
 
 .xfx-clr-blue { color: #2d72d0 !important; }
 .xfx-clr-white { color: #ffffff !important; }
 .xfx-clr-black { color: #000000 !important; }
+.xfx-clr-darkblue { color: #171d3b !important; }
 .xfx-clr-darkgray { color: #363636 !important; }
 .xfx-clr-lightgray { color: #727272 !important; }
 
@@ -43,6 +45,8 @@ sup { vertical-align: top !important; position: relative !important; top: 0.5em 
 .xfx-btn-round-full-orange { background-color: #cd3d0f !important; border-radius: 9999px !important; padding: .5rem 1rem !important; color: #ffffff !important; font-size: 1rem !important; line-height: 1.5rem !important; }
 .xfx-btn-round-full-blue { background-color: #2d72d0 !important; border-radius: 9999px !important; padding: .5rem 1rem !important; color: #ffffff !important; font-size: 1rem !important; line-height: 1.5rem !important; }
 .xfx-btn-round-full-gray { background-color: #d9dadc !important; border-radius: 9999px !important; padding: .5rem 1rem !important; color: #2d72d0 !important; font-size: 1rem !important; line-height: 1.5rem !important; }
+.xfx-btn-round-full-white { background-color: #ffffff !important; border-radius: 9999px !important; padding: .5rem 1rem !important; color: #171d3b !important; font-size: 1rem !important; line-height: 1.5rem !important; }
+
 .xfx-btn-icon-white { background-color: #ffffff !important; color: #363636 !important; height: 2rem !important; width: 2rem !important; }
 
 .xfx-bdrs-8 { border-radius: .5rem; }

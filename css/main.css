@@ -38,12 +38,18 @@ sup { vertical-align: top !important; position: relative !important; top: 0.5em 
 .xfx-object-fit img { width: 100%; height: auto; object-fit: contain; }
 .xfx-object-fit-cover img { width: 100%; height: auto; object-fit: cover; }
 
+
+/* navbar property */
 .xfx-sony-logo { width: 4.5rem !important; height: 1.5rem !important; }
 .xfx-playstation-logo { width: 3rem !important; height: 3rem !important; }
 .xfx-playstation-logo-big { width: 4.5rem !important; height: 4.5rem !important; }
 .xfx-playstation-logo-extrabig { width: 8rem !important; height: auto !important; }
 
 .xfx-dropdown-toggle::after { display: flex; margin-left: .255em; margin-top: .255em; content: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-down' class='svg-inline--fa fa-chevron-down fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 448 512'%3E%3Cpath fill='%23999' d='M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z'%3E%3C/path%3E%3C/svg%3E"); }
+.xfx-dropdown-toggle:hover::after { display: flex; margin-left: .255em; margin-top: .255em; content: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-down' class='svg-inline--fa fa-chevron-down fa-w-14' role='img' xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 448 512'%3E%3Cpath fill='%230070d1' d='M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z'%3E%3C/path%3E%3C/svg%3E"); }
+
+.xfx-link-hover-black:hover { transition: .2s ease; color: #000000 !important; }
+.xfx-filter-blue:hover { transition: .2s ease; filter: invert(47%) sepia(9%) saturate(4029%) hue-rotate(175deg) brightness(88%) contrast(105%); }
 
 /* buttons */
 .xfx-btn-round-full-black { position: relative; background-color: #363636 !important; border-radius: 9999px !important; padding: .5rem 1rem !important; color: #ffffff !important; font-size: 1rem !important; line-height: 1.5rem !important; }
@@ -67,9 +73,9 @@ sup { vertical-align: top !important; position: relative !important; top: 0.5em 
 .xfx-btn-round-full-white::before { content: ' '; position: absolute; left: 50%; top: 50%; width: calc(100% + .5rem); height: calc(100% + .5rem); background: transparent; box-shadow: 0 0 0 2px #ffffff ;z-index: 1; transform: scale(0) translate(-50%, -50%); border-radius: 999px; }
 .xfx-btn-round-full-white:hover::before { transform: scale(1) translate(-50%, -50%); transform-origin: 0 0; transition: .2s ease; }
 
-
-
+/* footer property */
 .xfx-btn-icon-white { background-color: #ffffff !important; color: #363636 !important; height: 2rem !important; width: 2rem !important; }
+.xfx-link-hover-underline:hover { text-decoration: underline !important; }
 
 .xfx-bdrs-8 { border-radius: .5rem; }
 .xfx-bdrs-16 { border-radius: 1rem; }

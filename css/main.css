@@ -78,7 +78,10 @@ sup { vertical-align: top !important; position: relative !important; top: 0.5em 
 
 .xfx-active-box { border-radius: 1rem; box-shadow: 0 0 0 4px #ffffff, 0 0 0 6px #2d72d0; }
 .xfx-card-active { opacity: 1; box-shadow: 0 2px 0 0 #2d72d0;}
+
 .xfx-card-inactive { opacity: .4; }
+.xfx-card-inactive:hover { opacity: 1; transition: .2s ease; }
+
 .xfx-cup { cursor: pointer; }
 
 
